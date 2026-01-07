@@ -1,0 +1,48 @@
+package domain;
+
+public class Account {
+    private String accountNumber;
+    private String customerId;
+    private double balance;
+    private String AccountType;
+
+    public String getAccountNumber() {
+        return accountNumber;
+    }
+
+    public void setAccountNumber(String accountNumber) {
+        this.accountNumber = accountNumber;
+    }
+
+    public String getCustomerId() {
+        return customerId;
+    }
+
+    public void setCustomerId(String customerId) {
+        this.customerId = customerId;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+
+    public String getAccountType() {
+        return AccountType;
+    }
+
+    public void setAccountType(String accountType) {
+        AccountType = accountType;
+    }
+
+    public Account(String accountNumber, String customerId, double balance, String accountType) {
+        this.accountNumber = accountNumber;
+        this.customerId = customerId;
+        this.balance = balance;
+        this.AccountType = accountType;
+    }
+
+}
